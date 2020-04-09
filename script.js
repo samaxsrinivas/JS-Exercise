@@ -1,8 +1,11 @@
-const showMessage = () => {
-    console.log("Hello!");
-};
+document.getElementById("myButton").addEventListener("click", () => {
+    alert("Hello!");
+});
 
-// Access the button
-const buttonElement = document.getElementById("myButton");
-// Listen to the "click" event
-buttonElement.addEventListener("click", showMessage);
+document.getElementById("myButton2").addEventListener("click", () => {
+    alert("Hello!");
+});
+
+document.getElementById("myButton3").addEventListener("click", () => {
+    alert("Hello!");
+});
